@@ -53,10 +53,18 @@
     
       <section class="content">
         <h2>Frequently Asked Questions</h2>
-        <h3>Is my data backed up?</h3>
-        <p>Because LifeRemind is 100% offline, your data is only stored on your device. Uninstalling the app will permanently delete your data unless you use your device's built-in backup tools.</p>
-        <h3>Does the app require internet?</h3>
-        <p>No! The core features of the app function entirely offline.</p>
+        
+        <h3>1. Is my data backed up, and can I transfer it?</h3>
+        <p>Because LifeRemind is 100% offline, your data resides strictly on your physical device. We do not maintain any cloud backups. However, you can manually back up or transfer your data by going to <strong>Settings ➔ Export Backup</strong>. This generates an encrypted JSON file that you can transfer to a new device and import via <strong>Settings ➔ Import Backup</strong>.</p>
+        
+        <h3>2. Does the app require an internet connection?</h3>
+        <p>No. All core features (Habits, Workout, Sleep, Mood Journal, Pomodoro, Ledgers) run entirely offline. The internet is only used by the Google AdMob plugin to request advertisements and by Firebase to upload anonymous crash reports.</p>
+        
+        <h3>3. What security is used to protect my database?</h3>
+        <p>LifeRemind uses a local, high-performance database (Hive CE) encrypted with a 256-bit AES key. This key is generated uniquely for your installation and stored securely in Android's hardware-backed Keystore system, meaning other apps or unauthorized users cannot read your databases.</p>
+
+        <h3>4. Why is my App Icon Name truncated on my launcher?</h3>
+        <p>Some custom Android interfaces (like MIUI or ColorOS) truncate hardcoded app names. In our latest version (1.0.3+), we migrated the launcher label to a localizable resource string (@string/app_name) which conforms to standard Android guidelines, fixing launcher name truncation issues.</p>
       </section>
     
   </main>
