@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.liferemind.app",
+      "sha256_cert_fingerprints": [
+        "B7:7B:2A:97:9B:F8:1D:A2:8C:39:6F:82:4D:5B:CB:74:74:10:FC:98:25:FD:C5:72:AA:88:EA:7F:CB:D7:86:B8"
+      ]
+    }
+  }
+]
